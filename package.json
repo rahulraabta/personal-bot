@@ -7,7 +7,11 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
   },
   "repository": {
     "type": "git",
@@ -22,6 +26,9 @@
   },
   "homepage": "https://github.com/rahulraabta/personal-bot#readme",
   "dependencies": {
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
     "recharts": "^3.8.1"
   },
   "devDependencies": {
