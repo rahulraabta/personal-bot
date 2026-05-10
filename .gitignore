@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+__pycache__/
+.venv/
+.env
+.streamlit/secrets.toml
+
+# Config / Keys
+*.txt
+*.jsonl
+
+# Build files
+dist/
+build/
